@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú centrado con recuadros</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f0f0;
+      display: flex;
+	   flex-direction: column;  
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+	   background-image: url("https://i.pinimg.com/736x/8e/7d/62/8e7d6275623fa62ec5d260f06f006a6c.jpg"); 
+      background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+      background-position: center;  /* Centra la imagen */
+      background-repeat: no-repeat; /* Evita que se repita */
+    }
+	h1 {
+		font-size: 50px;
+		}
+
+    nav {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    li {
+      background-color: #607D8B;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    li:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+ 
+ <h1 style="font-size: 50; color:#EEF2FF ;">𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂 𝑴𝒊 𝑷𝒂𝒈𝒊𝒏𝒂</h1>
+
+  <nav>
+    <ul>
+      <li><a href="pagina1.html">Acerca de mi</a></li>
+	  <li><a href="pagina2.html">Carrera</a></li>
+	  <li><a href="pagina3.html">Aspectos a profundizar</a></li>
+	  <li><a href="pagina5.html">Blog</a></li>
+	  <li><a href="pagina4.html">Bibliografia</a></li>
+    </ul>
+  </nav>
+  
+  
+
+</body>
+</html>
