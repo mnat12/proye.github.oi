@@ -2,94 +2,78 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Inicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú centrado con recuadros</title>
   <style>
-  .contenedor {
-      width: 60%; /* Puedes ajustar este valor (por ejemplo, 50%, 40%, etc.) */
-      margin: 0 auto; /* Centra horizontalmente el contenedor */
-      text-align: justify; /* Justifica el texto */
+    body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      margin: 0;
+      background: #f0f0f0;
+      display: flex;
+	   flex-direction: column;  
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+	   background-image: url("https://i.pinimg.com/736x/8e/7d/62/8e7d6275623fa62ec5d260f06f006a6c.jpg"); 
+      background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+      background-position: center;  /* Centra la imagen */
+      background-repeat: no-repeat; /* Evita que se repita */
     }
-       
-		p {
+	h1 {
 		font-size: 50px;
 		}
-		
-		h3 {
-  color: white;
-  align:Justify;
-  text-decoration-color:#AAB7B8; 
-}
 
-h4 {
-  color: white;
-  align:Justify;
-  text-decoration-color:#AAB7B8; 
-}
-body {
-  background-color: black;
- 
-}
-/* menu*/
+    nav {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-header{
- background-color:white; /* configuracion de la cabecera, aqui se define el fondo del color de la cabecera*/
- text-align: center;
- padding: 40px;
-}
-nav a{
- display: inline-block;
- text-decoration: none;
- color: black;/* aqui se define el fondo del color de la cabecera*/
- margin: 0 30px;
- padding: 10px 15px;
- border-radius: 30px;
-}
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
 
-nav a:hover {/* con el hover y estos parametros se ahgrega efecto al menu,el hover y header trabajan juntos, son instrucciones que se acompañan */
- background-color: #AAAAAA;
- color: black;
-}
+    li {
+      background-color: #607D8B;
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
 
-/* menu*/
+    li:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
 
-
-h5 {
-  text-shadow: 5px 5px 9px black;
-}
-    </style>
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
 </head>
+<body>
+ 
+ <h1 style="font-size: 50; color:#EEF2FF ;">𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐 𝒂 𝑴𝒊 𝑷𝒂𝒈𝒊𝒏𝒂</h1>
 
-<body background="https://i.pinimg.com/736x/20/65/ea/2065ea0a584126460e75dda1934eb883.jpg">
-
-<header>
-    <div class="hero">
-        <div class="navbar">
-            <img width="70" height="70"  align="left" src="https://i.pinimg.com/1200x/e2/69/31/e269313543c863eb32ec5c2163f26468.jpg" alt="Logo">
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="pagina2.html">Carrera</a>
-                <a href="pagina3.html">Aspectos a profundizar</a>
-                <a href="pagina4.html">Bibliografia</a>
-            </nav>
-        </div>
-    </div>
-</header>
-
-<center><p style="font-size: 50; color:#EEF2FF ;">Acerca de mí</p>
-<hr color="white" size="10">
-<br>
-<br>
-<div class="contenedor">
- <h3>En esta página se conocerá más acerca de la carrera de Mecánica Automotriz y un poco sobre mí.
-Soy Alondra Martinez y estoy estudiando la carrera de Mecánica Automotriz.
-Hace un tiempo no sabía qué estudiar, y conforme pasaba el tiempo, me llamaban la atención cada vez más los autos.
-Me hice una pregunta: ¿Si me gustan los carros, me vería trabajando en algo relacionado con ellos? Y fue así como decidí estudiar esto.
-Mi interés no es solo por cómo se ven los autos; me interesa saber más sobre cómo funcionan. Todo empezó por curiosidad y se volvió una pasión.
-Quiero dedicarme a algo que de verdad me gusta, y creo que esto puede ser lo ideal.
-En un futuro, espero poder trabajar con alguna empresa. Dodge y BMW son las que, por ahora, tengo en mente.
-Y después, espero tener mi propio negocio.</h3></div>
+  <nav>
+    <ul>
+      <li><a href="pagina1.html">Acerca de mi</a></li>
+	  <li><a href="pagina2.html">Carrera</a></li>
+	  <li><a href="pagina3.html">Aspectos a profundizar</a></li>
+	  <li><a href="pagina5.html">Blog</a></li>
+	  <li><a href="pagina4.html">Bibliografia</a></li>
+    </ul>
+  </nav>
+  
+  
 
 </body>
 </html>
